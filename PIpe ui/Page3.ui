@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page3</class>
+ <widget class="QWidget" name="Page3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1209</width>
+    <height>877</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>二级风险因子登记表</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>9</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>6777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>5</width>
+           <height>2</height>
+          </size>
+         </property>
+         <property name="maxVisibleItems">
+          <number>7</number>
+         </property>
+         <property name="maxCount">
+          <number>2147483606</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>新建顶管自身特性</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>新建顶管开挖情况</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>新建顶管施工管理</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>既有邻近地下柔性管线特性</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>既有邻近地下刚性管线特性</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>既有邻近基础特性</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_face3_read">
+         <property name="text">
+          <string>读取数据</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_face3_write">
+         <property name="text">
+          <string>用户自定义</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U6">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>237</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>46</number>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>邻近基础形式</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建顶管与建筑物水平净距</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>邻近基础高度</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>邻近基础形式</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建顶管与建筑物水平净距</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>邻近基础高度</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U4">
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>38</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>262</number>
+         </attribute>
+         <attribute name="horizontalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>26</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>37</number>
+         </attribute>
+         <attribute name="verticalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>新建顶管与邻近柔性管线净距</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建顶管与邻近柔性管线空间位置关系</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>邻近刚性管线管径</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>新建顶管与邻近柔性管线净距</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建顶管与邻近柔性管线空间位置关系</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>邻近刚性管线管径</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U5">
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>38</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>262</number>
+         </attribute>
+         <attribute name="horizontalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>26</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>37</number>
+         </attribute>
+         <attribute name="verticalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>新建顶管与邻近刚性管线净距</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建顶管与邻近刚性管线空间位置关系</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>邻近刚性管线材质</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>邻近刚性管线管径</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>新建顶管与邻近刚性管线净距</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建顶管与邻近刚性管线空间位置关系</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>邻近刚性管线材质</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>邻近刚性管线管径</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>14</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>24</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>34</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>41</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>42</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>43</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>44</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>55</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>176</number>
+         </attribute>
+         <attribute name="horizontalHeaderHighlightSections">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>23</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>37</number>
+         </attribute>
+         <attribute name="verticalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>施工技术状况</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>施工质量</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>检测情况</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>监理情况</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>施工技术状况</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>施工质量</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>检测情况</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>监理情况</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>14</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>24</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>34</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>41</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>42</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>43</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>44</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U2">
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>220</number>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>45</number>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>土舱压力</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>注浆压力</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>开挖速度</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>土舱压力</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>注浆压力</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开挖速度</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3_U1">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>220</number>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>30</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>45</number>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>新建顶管埋深</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建顶管尺寸</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建顶管土层性质</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>新建顶管埋深</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建顶管尺寸</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建顶管土层性质</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>11</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>13</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>21</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>31</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>33</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_page3_return">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>3</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>34</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>返回</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_page3_next">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>下一步</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U1</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1314</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U2</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1096</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U3</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>877</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U5</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U6</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>14</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>tableWidget_3_U4</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
